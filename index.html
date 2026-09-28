@@ -1,0 +1,602 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abhishek Alankara — Electronics and Communication Engineering portfolio featuring embedded systems, IoT projects, research, and AI/ML.">
+  <title>Abhishek Alankara | Engineering Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Project video previews */
+    .project-video-art {
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+      background: #0b1118;
+    }
+
+    .project-video {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 240px;
+      object-fit: contain;
+      background: #0b1118;
+      border: none;
+    }
+
+    .certification-list[hidden] {
+      display: none !important;
+    }
+
+    .certification-summary {
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span class="brand-mark">A<span>.</span></span>
+      <span>ABHISHEK <small>ENGINEERING PORTFOLIO</small></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="pulse"></span>
+          OPEN TO ENGINEERING OPPORTUNITIES
+        </div>
+
+        <p class="hero-kicker">ELECTRONICS &amp; COMMUNICATION ENGINEERING</p>
+
+        <h1>
+          Building at the<br>
+          intersection of <span>hardware</span><br>
+          and intelligence.
+        </h1>
+
+        <p class="hero-description">
+          I'm Abhishek Alankara, a B.Tech Electronics and Communication
+          Engineering student at SRM University–AP with interests in
+          embedded systems, IoT, VLSI, and artificial intelligence.
+          I enjoy combining hardware and software to develop practical
+          engineering solutions.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore my work <span>↘</span>
+          </a>
+          <a class="button button-ghost" href="assets/resume.pdf" target="_blank" rel="noopener">
+            View resume ↗
+          </a>
+        </div>
+
+        <div class="hero-links">
+          <a href="https://github.com/abhishekalankara" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+          <a href="https://www.linkedin.com/in/abhishekalankara/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+          <a href="mailto:abishekalankara@gmail.com">EMAIL ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Decorative circuit-inspired graphic">
+        <div class="visual-top">
+          <span>FIG. 01 / SYSTEMS THINKING</span>
+          <span class="live-dot">● ONLINE</span>
+        </div>
+
+        <div class="circuit">
+          <div class="circuit-ring ring-a"></div>
+          <div class="circuit-ring ring-b"></div>
+          <div class="circuit-core">
+            <span>ECE</span>
+            <small>IDEA → SYSTEM</small>
+          </div>
+          <i class="node node-a"></i>
+          <i class="node node-b"></i>
+          <i class="node node-c"></i>
+          <i class="node node-d"></i>
+          <span class="circuit-label label-a">EMBEDDED</span>
+          <span class="circuit-label label-b">SIGNALS</span>
+          <span class="circuit-label label-c">ML / AI</span>
+        </div>
+
+        <div class="visual-bottom">
+          <span>DESIGN</span>
+          <span class="visual-line"></span>
+          <span>PROTOTYPE</span>
+          <span class="visual-line"></span>
+          <span>VALIDATE</span>
+        </div>
+      </div>
+
+      <div class="hero-index">
+        <span>01</span>
+        <span class="index-line"></span>
+        <span>PORTFOLIO / 2026</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section-wrap intro-strip" id="about">
+      <div class="section-label">
+        <span>01 / ABOUT</span>
+        <span class="label-line"></span>
+      </div>
+
+      <div class="about-grid">
+        <h2>Curious by design.<br><span>Practical by build.</span></h2>
+
+        <div class="about-copy">
+          <p>
+            I'm a B.Tech student in Electronics and Communication
+            Engineering at SRM University–AP, interested in embedded
+            systems, IoT, VLSI, and artificial intelligence.
+            I enjoy working on hardware–software integration,
+            microcontrollers, and machine learning projects.
+          </p>
+
+          <p>
+            Through academic projects and research, I'm developing
+            skills in embedded development, sensor integration,
+            machine learning, and technical problem-solving.
+            I'm looking for opportunities to learn, collaborate,
+            and contribute to real-world engineering projects.
+          </p>
+
+          <div class="about-facts">
+            <div><strong>ECE</strong><small>ACADEMIC BACKGROUND</small></div>
+            <div><strong>HW + SW</strong><small>CROSS-DOMAIN INTEREST</small></div>
+            <div><strong>R&amp;D</strong><small>PROJECTS &amp; RESEARCH</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS WITH VIDEOS -->
+    <section class="section-wrap projects-section" id="projects">
+      <div class="section-label">
+        <span>02 / SELECTED PROJECTS</span>
+        <span class="label-line"></span>
+      </div>
+
+      <div class="section-heading">
+        <div>
+          <h2>From concept<br>to <span>prototype.</span></h2>
+        </div>
+        <p>
+          Explore my engineering projects in embedded systems, IoT,
+          and health monitoring through project demonstrations.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- PROJECT 1: SMART OBJECT DISPENSER -->
+        <article class="project-card">
+          <div class="project-art dispenser-art project-video-art">
+            <video
+              class="project-video"
+              controls
+              preload="metadata"
+              playsinline
+              aria-label="Smart Object Dispenser project demonstration"
+            >
+              <source src="assets/videos/smart-object-dispenser-app-demo.mp4" type="video/mp4">
+              Your browser does not support video playback.
+            </video>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span>01 / IOT + EMBEDDED</span>
+              <span>PROJECT DEMO</span>
+            </div>
+
+            <h3>Smart Object Dispenser</h3>
+
+            <p>
+              Developed a Smart Object Dispenser using Firebase Realtime
+              Database, QR code scanning, and digital payment integration.
+              The system supports product selection, payment processing,
+              and automated dispensing through ESP32-based hardware control.
+            </p>
+
+            <div class="tag-row">
+              <span>ESP32</span>
+              <span>Flutter</span>
+              <span>Firebase</span>
+              <span>QR / IoT</span>
+            </div>
+
+            <a
+              class="text-link"
+              href="https://github.com/abhishekalankara/Smart-Object-Dispenser-using-IoT"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View project repository ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: WEARABLE IOT HEALTH MONITORING -->
+        <article class="project-card">
+          <div class="project-art health-art project-video-art">
+            <video
+              class="project-video"
+              controls
+              preload="metadata"
+              playsinline
+              aria-label="Wearable IoT Health Monitoring Glove project demonstration"
+            >
+              <source src="assets/videos/wearable-iot-demo.mp4" type="video/mp4">
+              Your browser does not support video playback.
+            </video>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span>02 / EMBEDDED HEALTH</span>
+              <span>PROJECT DEMO</span>
+            </div>
+
+            <h3>Health Monitoring Glove</h3>
+
+            <p>
+              Developed a wearable IoT health monitoring device focused
+              on collecting physiological sensor data and presenting
+              useful health information. The project combines embedded
+              systems, sensors, and data communication for real-time monitoring.
+            </p>
+
+            <div class="tag-row">
+              <span>ESP32</span>
+              <span>Sensors</span>
+              <span>IoT</span>
+              <span>Monitoring</span>
+            </div>
+
+            <a
+              class="text-link"
+              href="https://github.com/abhishekalankara/Wearable-IoT-Health-Monitoring-Glove"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View project repository ↗
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="research-section" id="research">
+      <div class="section-wrap">
+        <div class="section-label">
+          <span>03 / RESEARCH PAPERS</span>
+          <span class="label-line"></span>
+        </div>
+
+        <div class="section-heading">
+          <div>
+            <h2>Exploring<br><span>new ideas.</span></h2>
+          </div>
+          <p>
+            Selected research work in genomic sequence classification
+            and battery health monitoring.
+          </p>
+        </div>
+
+        <div class="research-list">
+
+          <article class="research-item">
+            <div class="research-number">R01</div>
+
+            <div class="research-main">
+              <span class="research-type">GENOMICS / DEEP LEARNING</span>
+              <h3>Convolution Meets Genome</h3>
+
+              <p>
+                Applied a CNN–LSTM approach to DNA sequence classification,
+                combining convolutional feature extraction and sequential
+                pattern learning to identify meaningful genomic patterns.
+              </p>
+
+              <div class="tag-row">
+                <span>DNA Sequence</span>
+                <span>CNN</span>
+                <span>CNN–LSTM</span>
+              </div>
+            </div>
+
+            <a
+              class="round-link"
+              href="assets/research/convolution-meets-genome.pdf"
+              target="_blank"
+              rel="noopener"
+              aria-label="Read Convolution Meets Genome paper"
+            >PDF ↗</a>
+          </article>
+
+          <article class="research-item">
+            <div class="research-number">R02</div>
+
+            <div class="research-main">
+              <span class="research-type">BATTERY ANALYTICS / SEQUENCE MODELLING</span>
+              <h3>Battery Health Monitoring using GAT and LSTM</h3>
+
+              <p>
+                Applied Graph Attention Networks (GAT) and Long Short-Term
+                Memory (LSTM) models to estimate battery State of Charge
+                (SOC) and State of Health (SOH). GAT captures relationships
+                between battery data features, while LSTM learns temporal
+                patterns for battery condition monitoring.
+              </p>
+
+              <div class="tag-row">
+                <span>GAT</span>
+                <span>LSTM</span>
+                <span>Battery Health</span>
+              </div>
+            </div>
+
+            <a
+              class="round-link"
+              href="assets/research/battery-health-gat-lstm.pdf"
+              target="_blank"
+              rel="noopener"
+              aria-label="Read Battery Health Monitoring paper"
+            >PDF ↗</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section-wrap skills-section" id="certifications">
+      <div class="section-label">
+        <span>04 / CERTIFICATIONS</span>
+        <span class="label-line"></span>
+      </div>
+
+      <div class="section-heading">
+        <div>
+          <h2>Learning and<br><span>certification.</span></h2>
+        </div>
+        <p>Explore my completed courses and professional learning certificates.</p>
+      </div>
+
+      <div class="skill-card certification-summary">
+        <span class="skill-icon">PDF</span>
+        <h3>Certificates &amp; Courses</h3>
+        <p>8 certificates available to view.</p>
+
+        <button
+          class="button button-ghost"
+          id="toggle-certifications"
+          type="button"
+          aria-expanded="false"
+          aria-controls="certification-list"
+        >
+          View all certifications ↗
+        </button>
+      </div>
+
+      <div class="skills-grid certification-list" id="certification-list" hidden>
+
+        <article class="skill-card">
+          <span class="skill-icon">01</span>
+          <h3>Control Design Onramp with Simulink</h3>
+          <p>MathWorks Training Services</p>
+          <a class="text-link" href="assets/certifications/control-design-onramp-simulink.pdf" target="_blank" rel="noopener noreferrer">View certificate PDF ↗</a>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">02</span>
+          <h3>Simulink Onramp</h3>
+          <p>MathWorks Training Services</p>
+          <a class="text-link" href="assets/certifications/simulink-onramp.pdf" target="_blank" rel="noopener noreferrer">View certificate PDF ↗</a>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">03</span>
+          <h3>Cyber Job Simulation</h3>
+          <p>Deloitte · Forage</p>
+          <a class="text-link" href="assets/certifications/deloitte-cyber-job-simulation.pdf" target="_blank" rel="noopener noreferrer">View certificate PDF ↗</a>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">04</span>
+          <h3>Free Embedded Systems Course</h3>
+          <p>Course completion</p>
+          <a class="text-link" href="assets/certifications/embedded-systems-course.pdf" target="_blank" rel="noopener noreferrer">View certificate PDF ↗</a>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">05</span>
+          <h3>Generative AI for Beginners</h3>
+          <p>Course completion</p>
+          <a class="text-link" href="assets/certifications/generative-ai-for-beginners.pdf" target="_blank" rel="noopener noreferrer">View certificate PDF ↗</a>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">06</span>
+          <h3>Artificial Intelligence Fundamentals</h3>
+          <p>IBM SkillsBuild</p>
+          <a class="text-link" href="assets/certifications/ibm-artificial-intelligence-fundamentals.pdf" target="_blank" rel="noopener noreferrer">View certificate PDF ↗</a>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">07</span>
+          <h3>Introduction to Cloud Computing</h3>
+          <p>Course completion</p>
+          <a class="text-link" href="assets/certifications/introduction-to-cloud-computing.pdf" target="_blank" rel="noopener noreferrer">View certificate PDF ↗</a>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">08</span>
+          <h3>Operating Systems Basics</h3>
+          <p>Cisco Networking Academy</p>
+          <a class="text-link" href="assets/certifications/operating-systems-basics.pdf" target="_blank" rel="noopener noreferrer">View certificate PDF ↗</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS -->
+    <section class="section-wrap skills-section" id="skills">
+      <div class="section-label">
+        <span>05 / TECHNICAL TOOLKIT</span>
+        <span class="label-line"></span>
+      </div>
+
+      <div class="section-heading">
+        <div>
+          <h2>Tools I use to<br><span>solve problems.</span></h2>
+        </div>
+        <p>Technical skills across embedded systems, IoT, programming, and engineering tools.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <article class="skill-card">
+          <span class="skill-icon">⌘</span>
+          <h3>Embedded Systems</h3>
+          <p>ESP32 · Arduino IDE · Embedded C · Sensors · Bluetooth</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">⌁</span>
+          <h3>IoT &amp; Connectivity</h3>
+          <p>Firebase · IoT Systems · Real-Time Monitoring</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">⌬</span>
+          <h3>Programming</h3>
+          <p>C · Python · SQL</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">⟠</span>
+          <h3>Engineering Tools</h3>
+          <p>MATLAB · Verilog</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">⚙</span>
+          <h3>Hardware</h3>
+          <p>Servo Motors · L298N Motor Driver · MAX30102 · Temperature Sensor</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">↗</span>
+          <h3>Core Areas</h3>
+          <p>Automation · Hardware–Software Integration · Prototyping · Testing</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section-wrap contact-section" id="contact">
+      <div class="contact-panel">
+
+        <div class="section-label">
+          <span>06 / CONTACT</span>
+          <span class="label-line"></span>
+        </div>
+
+        <p class="eyebrow">LET'S BUILD SOMETHING USEFUL</p>
+
+        <h2>Have an engineering<br>problem in mind?</h2>
+
+        <p class="contact-copy">
+          I'm interested in opportunities to learn, collaborate,
+          and contribute across embedded systems, electronics,
+          and applied research.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:abishekalankara@gmail.com">
+            Get in touch ↗
+          </a>
+          <a class="button button-ghost" href="assets/resume.pdf" target="_blank" rel="noopener">
+            Resume PDF ↓
+          </a>
+        </div>
+
+        <div class="contact-links">
+          <a href="https://github.com/abhishekalankara" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/abhishekalankara/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="mailto:abishekalankara@gmail.com">Email ↗</a>
+        </div>
+
+      </div>
+
+      <footer>
+        <span>© <span id="year"></span> ABHISHEK ALANKARA</span>
+        <span>DESIGNED FOR ENGINEERING / BUILT FOR THE WEB</span>
+        <a href="#home">BACK TO TOP ↑</a>
+      </footer>
+    </section>
+
+  </main>
+
+  <script>
+    // Show or hide certification cards.
+    const certificationToggle = document.getElementById("toggle-certifications");
+    const certificationList = document.getElementById("certification-list");
+
+    if (certificationToggle && certificationList) {
+      certificationToggle.addEventListener("click", () => {
+        const isExpanded =
+          certificationToggle.getAttribute("aria-expanded") === "true";
+
+        certificationToggle.setAttribute(
+          "aria-expanded",
+          String(!isExpanded)
+        );
+
+        certificationList.hidden = isExpanded;
+
+        certificationToggle.textContent = isExpanded
+          ? "View all certifications ↗"
+          : "Hide certifications ↑";
+      });
+    }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
