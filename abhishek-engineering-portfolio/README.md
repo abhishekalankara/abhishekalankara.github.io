@@ -1,33 +1,50 @@
 # Abhishek Alankara — Engineering Portfolio
 
-A responsive, dark technical portfolio built with plain HTML, CSS, and JavaScript for GitHub Pages.
+Welcome to my engineering portfolio! I am an Electronics and Communication Engineering student interested in embedded systems, IoT, hardware-software integration, and machine learning.
 
-## 1. Personalize before publishing
+This repository contains the source code for my personal portfolio website, showcasing my technical skills, projects, research work, and certifications.
 
-Open `index.html` and replace:
-- `YOUR-GITHUB-USERNAME`
-- `YOUR-LINKEDIN-USERNAME`
-- `YOUR-EMAIL@example.com`
+## 🌐 Live Website
 
-Add your resume PDF at `assets/resume.pdf`. Create the `assets` folder if needed.
+**Portfolio:** https://abhishekalankara.github.io/
 
-Review every project and research description. Add real repository URLs, photos, paper links, exact publication details, and verified results. Remove any technologies you have not used or cannot discuss confidently. Do not claim a paper was published or accepted unless that status is confirmed.
+## 🛠️ Technologies Used
 
-## 2. Publish with GitHub Pages
+* HTML5
+* CSS3
+* JavaScript
+* GitHub Pages
 
-1. Sign in to https://github.com/ and create a new **public** repository named `YOUR-GITHUB-USERNAME.github.io`.
-2. Upload `index.html`, `style.css`, `script.js`, and the `assets` folder (including `resume.pdf`).
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select branch `main` and folder `/(root)`, then save.
-6. Wait for deployment. Your site should be available at `https://YOUR-GITHUB-USERNAME.github.io/`.
+## 🚀 Portfolio Highlights
 
-If you use a repository with another name, the URL will usually be `https://YOUR-GITHUB-USERNAME.github.io/REPOSITORY-NAME/`. Relative links in this template support that setup too.
+* **About Me** — My academic background and engineering interests.
+* **Technical Skills** — Embedded systems, IoT, programming, and engineering tools.
+* **Projects** — Smart Object Dispenser and Wearable IoT Health Monitoring Glove.
+* **Research** — Machine learning research involving battery health prediction and DNA sequence classification.
+* **Certifications** — Courses and professional learning credentials.
+* **Resume** — Access to my professional resume.
+* **Contact** — Links to my professional profiles and email.
 
-## 3. Before sending to recruiters
+## 📂 Repository Structure
 
-- Test the site on mobile and desktop.
-- Click every GitHub, LinkedIn, email, research, and resume link.
-- Make sure the resume PDF opens.
-- Add real screenshots/photos and a short, accurate explanation of your personal contribution.
-- Keep contact details and project claims accurate.
+```text
+abhishekalankara.github.io/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── assets/
+    ├── resume.pdf
+    ├── research/
+    └── certifications/
+```
+
+## 📬 Connect With Me
+
+* **GitHub:** https://github.com/abhishekalankara
+* **LinkedIn:** https://www.linkedin.com/in/abhishekalankara/
+* **Email:** [abishekalankara@gmail.com](mailto:abishekalankara@gmail.com)
+
+---
+
+⭐ Thank you for visiting my portfolio!
